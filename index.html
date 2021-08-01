@@ -1,0 +1,71 @@
+<html>
+    <head>
+       <title>Code Tutorials</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a href="" id="link" download="myselfie.png"></a>
+        <h1>Voice Selfie App 
+            <img id = "logo_img" src="giphy.gif">
+        </h1>
+        <hr>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        
+        <div class="form-group" >
+            <h3>Say "take my selfie"</h3>
+            <label>Your voice output : </label>
+            <textarea readonly = "true" class="form-control" id = "textbox"></textarea>
+            <button class="btn btn-primary" onclick="start();">Start</button>
+        <p>Press the Start button to voice search.</p>
+
+        </div>
+        <input id = "txtsrch" style="width: 150px;" placeholder="Text Search">
+        <button class="btn btn-success" onclick="search();">Search</button>
+    
+
+        <br>
+        <br>
+        <div id ="search_menu">
+        <h1>Seaching Menu(With or without voice searching)</h1>
+        <h3>For Thunkable Tutorials:</h1>
+        <div>
+        <h4>For Voice Command: Say "No Code Apps"</h4>
+        <h4>For Text Searching: Write "Thunkable"(with caps). </h4>
+        <br>
+        <br>
+        <h3>For Text Coding Tutorials:</h1>
+        <div>
+        <h4>For Voice Command: Say "Text Code"</h4>
+        <h4>For Text Searching: Write "Text Coding Tutorials" (with caps)</h4>
+        <br>
+        <br>
+        <h3>For Code.org Tutorials:</h1>
+        <div>
+        <h4>For Voice Command: Say "Block Code"</h4>
+        <h4>For Text Searching: Write "Code.org" (with caps)</h4>
+        <br>
+        <br>
+        <h3>For Chatbot Tutorials:</h1>
+        <div>
+        <h4>For Voice Command: Say "Chatbot"</h4>
+        <h4>For Text Searching: Write "Dialogueflow" (with caps)</h4>
+        </div>
+    </div>
+
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
